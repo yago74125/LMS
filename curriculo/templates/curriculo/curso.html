@@ -43,18 +43,12 @@
         <div class="row">
             <div class="col-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-1-tab"
-                        data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1"
-                        aria-selected="true">1º Semestre</a>
-                        <a class="nav-link" id="v-pills-2-tab"
-                        data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2"
-                        aria-selected="false">2º Semestre</a>
-                        <a class="nav-link" id="v-pills-3-tab"
-                        data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3"
-                        aria-selected="false">3º Semestre</a>
-                        <a class="nav-link" id="v-pills-4-tab"
-                        data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4"
-                        aria-selected="false">4º Semestre</a>
+                    {% for s in matriz%}
+                    <a {% if forloop.first %} class="nav-link active"  {% else %} class="nav-link"  {% endif %} id="v-pills-{{forloop.counter}}-tab"
+                        data-toggle="pill" href="#v-pills-{{forloop.counter}}" role="tab" aria-controls="v-pills-{{forloop.counter}}"
+                        aria-selected="true">{{forloop.counter}}º Semestre</a>
+                    {% endfor %}    
+                      
                 </div>
             </div>
             <div class="col-9">
