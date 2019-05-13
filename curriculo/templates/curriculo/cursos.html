@@ -7,7 +7,7 @@ Cursos
 <h3>Cursos disponiveis na instituição: </h3> 
 <ul>
 {% for curso in cursos %}
-<li>{{ curso.nome }}</li>
+<li><a href="{% url 'curriculo:curso' curso.sigla %}">{{ curso.nome }}</a></li>
 {% endfor %}
 </ul>
 {% endblock %}
