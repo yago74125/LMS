@@ -1,1 +1,622 @@
-[{"model": "curriculo.curso", "pk": 1, "fields": {"nome": "An\u00e1lise e Desenvolvimento de Sistemas", "sigla": "ADS"}}, {"model": "curriculo.curso", "pk": 2, "fields": {"nome": "Banco de Dados", "sigla": "BD"}}, {"model": "curriculo.curso", "pk": 3, "fields": {"nome": "Gest\u00e3o em Tecnologia da Informa\u00e7\u00e3o", "sigla": "GTI"}}, {"model": "curriculo.curso", "pk": 4, "fields": {"nome": "Sistemas da Informa\u00e7\u00e3o", "sigla": "SI"}}, {"model": "curriculo.disciplina", "pk": 1, "fields": {"nome": "Tecnologias Web", "data": "2019-02-19", "status": "ABERTA", "plano_ensino": "Aulas expositivas utilizando projetor, lousa eletr\u00f4nica e computador nas quais se apresenta e discute os t\u00f3picos da disciplina, bem como trabalhos em grupo com apresenta\u00e7\u00e3o escrita e defesa oral, apresenta\u00e7\u00e3o de v\u00eddeos.\r\nCada per\u00edodo de aula de 50 minutos ser\u00e1 completado com atividades a serem realizadas via ambiente virtual para um tempo de 10 minutos.\r\nAtividades cont\u00ednuas (AC) semanais para acompanhamento do processo ensino aprendizagem.", "carga_horaria": 80, "competencias": "Desenvolver aplica\u00e7\u00f5es web para automa\u00e7\u00e3o de processos de neg\u00f3cio utilizando bancos de dados relacionais.", "habilidades": "Conhecer e dominar as principais etapas de constru\u00e7\u00e3o e publica\u00e7\u00e3o de um site para a web.\r\nDesenvolver sistemas web utilizando HTML/CSS, JavaScript, Node JS e Frameworks Python .\r\nConhecer a arquitetura de sistemas web din\u00e2micas.\r\nConhecer os conceitos de desenvolvimento de sistemas din\u00e2micos para a Internet, aplicando as mais recentes tecnologias e m\u00e9todos para esta \u00e1rea.", "ementa": "Disciplina anterior: Linguagem de Programa\u00e7\u00e3o I, L\u00f3gica de Programa\u00e7\u00e3o\r\nDisciplina paralelo: Engenharia de Software, Linguagem de Programa\u00e7\u00e3o II, Linguagem SQL, Ambiente de Desenvolvimento e Opera\u00e7\u00f5es\r\nDisciplina posterior: Engenharia de Requisitos; An\u00e1lise e Modelagem de Sistemas;", "conteudo_programatico": "Conceitos e fundamentos: Internet, Intranet e Extranet.\r\nArquitetura Cliente-Servidor e o Desenvolvimento de aplica\u00e7\u00f5es WEB Padr\u00f5es Web.\r\nHTML (HyperText Markup Language) e CSS ( Cascading Style Sheets).\r\nEntender a sintaxe e comandos JavaScript e sua integra\u00e7\u00e3o com HTML.\r\nNo\u00e7\u00f5es de NodeJS: sintaxes e comandos, funcionamento, arquitetura e sua instala\u00e7\u00e3o no Apache.\r\nPython e Django: Sintaxes, funcionamento, padr\u00e3o MTV (Model-Template-View, ou Modelo-Template-Vis\u00e3o) e conex\u00f5es com Banco de Dados", "bibliografia_basica": "DUCKETT, J. Javascript e Jquery. Desenvolvimento de Interfaces Web Interativas. 1a.ed. Rio de Janeiro: Altabooks, 2016.\r\nELMAN, J.;LAVIN, M. Django Essencial - Usando REST, websockets e Backbone. 1.ed. S\u00e3o Paulo: Novatec, 2015.\r\nFREEMAN, E.; FREEMAN, E. Use a cabe\u00e7a! HTML com CSS e XHTML. Rio de Janeiro: Alta Books, 2\u00aa. Edi\u00e7\u00e3o, 2015.", "bibliografia_complementar": "ALMEIDA, F. Mean Full stack JavaScript para aplica\u00e7\u00f5es web com MongoDB, Express, Angular e Node. 1.ed. S\u00e3o Paulo: Casa do C\u00f3digo, 2015.\r\nHOLMES, S. MEAN Definitivo com Mongo, Express, Angular e Node. 1.ed. S\u00e3o Paulo: Novatec, 2016.\r\nMEJIA, A. Construindo uma Aplica\u00e7\u00e3o E-commerce com MEAN. 1.ed. S\u00e3o Paulo: Novatec, 2016.\r\nMORAES, W.B.. Construindo aplica\u00e7\u00f5es com NodeJS. 1.ed. S\u00e3o Paulo: Novatec, 2015.\r\nWILLIAMSON, K.. Introdu\u00e7\u00e3o ao AngularJS: um guia para o desenvolvimento com o AngularJS. 1.ed", "percentual_pratico": 50, "percentual_teorico": 50, "coordenador": 102}}, {"model": "curriculo.disciplina", "pk": 2, "fields": {"nome": "An\u00e1lise e Modelagem de Sistemas", "data": "2019-02-19", "status": "ABERTA", "plano_ensino": "Anteriores: Engenharia de Software.\r\nParalelas: Engenharia de Requisitos e Oficina de Projeto de Empresa 1 - OPE1.\r\nPosteriores: Qualidade de Software, Arquitetura e Projeto de Sistemas e Oficina de Projeto de\r\nEmpresa 2 - OPE2.", "carga_horaria": 80, "competencias": "Capacidade de especificar integralmente o comportamento do sistema de software a ser\r\ndesenvolvido atrav\u00e9s do documento denominado SRS (Software Requirements Specification);\r\nCapacidade de avaliar documentos SRS para garantir a qualidade da especifica\u00e7\u00e3o e a\r\nader\u00eancia ao software implementado;\r\nCapacidade de desenvolver o projeto de conclus\u00e3o de curso.", "habilidades": "Definir o que \u00e9 a UML e sua aplica\u00e7\u00e3o na modelagem de sistemas orientados a objetos;\r\nDerivar casos de uso a partir dos requisitos de sistema;\r\nIdentificar os cen\u00e1rios que comp\u00f5em um caso de uso;\r\nDetalhar os cen\u00e1rios atrav\u00e9s da descri\u00e7\u00e3o de di\u00e1logos completos e coerentes entre o ator e sistema;\r\nA partir do contexto fornecido pela descri\u00e7\u00e3o dos cen\u00e1rios dos casos de uso, derivar e manter a\r\nrastreabilidade entre os seguintes artefatos: Wireframes, Dicion\u00e1rios de Dados, Requisitos de\r\nSoftware", "ementa": "Aulas expositivas nas quais ser\u00e3o apresentados e discutidos os t\u00f3picos da disciplina.\r\nDesenvolvimento de atividades pr\u00e1ticas com estrat\u00e9gias diversas, individuais ou em equipes, para\r\nmelhor sedimenta\u00e7\u00e3o dos conte\u00fados abordados.\r\nEntre os recursos dispon\u00edveis est\u00e3o: projetor multim\u00eddia, lousa eletr\u00f4nica, acesso \u00e0 Internet e\r\nlaborat\u00f3rio de inform\u00e1tica, conforme as especificidades da disciplina.\r\nAtividades cont\u00ednuas (AC) di\u00e1rias para acompanhamento do processo de aprendizagem, sendo\r\nnecess\u00e1ria", "conteudo_programatico": "An\u00e1lise e Modelagem de Sistemas:\r\nContextualiza\u00e7\u00e3o: da Modelagem de Neg\u00f3cio \u00e0 Especifica\u00e7\u00e3o do Sistema;\r\nRequisitos de Sistemas x Casos de Uso x Requisitos de Software;\r\nIntrodu\u00e7\u00e3o \u00e0 UML.\r\nModelagem de Casos de Uso:\r\nO que os casos de uso s\u00e3o e o que n\u00e3o s\u00e3o: os motivos dos casos de uso serem t\u00e3o mal\r\ncompreendidos;\r\nOrienta\u00e7\u00f5es:\r\nEvitar \u201cTempo\u201d como Ator;\r\nEvitar Casos de Uso CRUD (Create, Read, Update e Delete);\r\nExce\u00e7\u00e3o: Caso de Uso \u201cRealizar Login\u201d.", "bibliografia_basica": "BITTENER, K.; SPENCE, I.\u00a0 Use Case Modeling. 1st ed. New York: Addison-Wesley, 2002.\r\nBLAHA, M.; RUMBAUGH, J. Modelagem e projetos baseados em objetos com UML 2. Rio de\r\nJaneiro:Elsevier\u00adCampus, 2006.\r\nEVANS, E. Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley,\r\nUpper Saddle River, NJ, USA. 20 ago. 2003. 560p. ISBN: 0-321-12521-5.", "bibliografia_complementar": "GAMMA; H.; Johson; V. Padr\u00f5es de Projeto. Porto Alegre: Bookman, 2005.\r\nLARMAN, C. Utilizando UML e Padr\u00f5es: uma introdu\u00e7\u00e3o \u00e0 an\u00e1lise e ao projeto orientados a objetos\r\ne ao desenvolvimento iterativo. 3.ed. Porto Alegre: Bookman, 2007.\r\nGUEDES, Gilleanes T. A.: UML 2 - Uma abordagem pr\u00e1tica. 2 ed. S\u00e3o Paulo: Novatec Editora, 2011.\r\nRUMBAUGH, J.; JACOBSON, I; BOOCH, G. The Unified Modeling Language Reference Manual.\r\n2 nd ed. New York: Addison-Wesley, 2004.", "percentual_pratico": 60, "percentual_teorico": 40, "coordenador": 103}}, {"model": "curriculo.disciplina", "pk": 3, "fields": {"nome": "L\u00f3gica de Programa\u00e7\u00e3o", "data": "2019-02-19", "status": "ABERTA", "plano_ensino": "Introdu\u00e7\u00e3o: L\u00f3gica. Algoritmos.\r\nTipos de Dados: Constantes. Vari\u00e1veis. Instru\u00e7\u00f5es b\u00e1sicas. Operadores aritm\u00e9ticos, l\u00f3gicos e relacionais\r\nEstruturas l\u00f3gicas ou de controle de fluxo:\r\nEstruturas sequ\u00eancias\r\nEstruturas condicionais ou de sele\u00e7\u00e3o: Simples. Composta. Encadeada ou Aninhada.\r\nEstruturas de repeti\u00e7\u00e3o ou la\u00e7o: la\u00e7o indefinido, la\u00e7o definido e la\u00e7o aninhados.\r\nFun\u00e7\u00f5es: Defini\u00e7\u00e3o e Vantagens. Escopo dos Dados e do C\u00f3digo. Par\u00e2metro de Entrada e Sa\u00edda. Tipos\r\nde fun\u00e7\u00f5es: com retorno", "carga_horaria": 80, "competencias": "Desenvolver racioc\u00ednio l\u00f3gico para organizar os elementos necess\u00e1rios para a resolu\u00e7\u00e3o de um\r\nproblema utilizando as ferramentas b\u00e1sicas de l\u00f3gica de programa\u00e7\u00e3o\r\nCriar uma base s\u00f3lida em l\u00f3gica de programa\u00e7\u00e3o\r\nDesenvolver algoritmos usando fun\u00e7\u00f5es e refinamentos sucessivos.\r\nUtilizar estruturas de dados na resolu\u00e7\u00e3o de problemas computacionais.", "habilidades": "Introduzir \u00e0 l\u00f3gica de programa\u00e7\u00e3o de computadores\r\nConhecer e dominar as estruturas b\u00e1sicas de controle de fluxo\r\nDesenvolver a t\u00e9cnica de refinamentos sucessivos na solu\u00e7\u00e3o de problemas, aprendendo a decompor\r\num problema em sub-tarefas ou m\u00f3dulos\r\nUtilizar as estruturas de dados homog\u00eaneas: vetores e matrizes\r\nImplementar solu\u00e7\u00f5es algor\u00edtmicas atrav\u00e9s da linguagem Python", "ementa": "Anteriores: Nenhuma\r\nParalelas: Linguagem de Programa\u00e7\u00e3o I\r\nPosteriores: Linguagem de Programa\u00e7\u00e3o II", "conteudo_programatico": "Introdu\u00e7\u00e3o: L\u00f3gica. Algoritmos.\r\nTipos de Dados: Constantes. Vari\u00e1veis. Instru\u00e7\u00f5es b\u00e1sicas. Operadores aritm\u00e9ticos, l\u00f3gicos e relacionais\r\nEstruturas l\u00f3gicas ou de controle de fluxo:\r\nEstruturas sequ\u00eancias\r\nEstruturas condicionais ou de sele\u00e7\u00e3o: Simples. Composta. Encadeada ou Aninhada.\r\nEstruturas de repeti\u00e7\u00e3o ou la\u00e7o: la\u00e7o indefinido, la\u00e7o definido e la\u00e7o aninhados.\r\nFun\u00e7\u00f5es: Defini\u00e7\u00e3o e Vantagens. Escopo dos Dados e do C\u00f3digo. Par\u00e2metro de Entrada e Sa\u00edda. Tipos\r\nde fun\u00e7\u00f5es: com retorno", "bibliografia_basica": "DIERBACH, C. Introduction to Computer Science Using Python: A Computational Problem-\r\nSolving Focus 1st Edition, New York: Wiley, 2012.\r\nMENEZES, N.N.C. Introdu\u00e7\u00e3o \u00e0 Programa\u00e7\u00e3o com Python: algoritmos e l\u00f3gica de programa\u00e7\u00e3o\r\npara iniciantes. 2 a . ed. S\u00e3o Paulo: Novatec, 2014.\r\nZELLE J. Python Programming: An Introduction to Computer Science, 3 rd Ed. Sherwood: Franklin,\r\nBeedle &amp; Associates Inc.;", "bibliografia_complementar": "CARVALHO, A.P.L.F.; LORENA, A.C. Introdu\u00e7\u00e3o \u00e0 computa\u00e7\u00e3o: software, hardware e dados. 1a.\r\ned. Rio de Janeiro: LTC, 2017.\r\nFARRELL, J. L\u00f3gica e Design de Programa\u00e7\u00e3o \u2013 Introdu\u00e7\u00e3o. 1. ed. S\u00e3o Paulo: Cengage Learning,\r\n2010.\r\nLOPES, A.; GARCIA, G. Introdu\u00e7\u00e3o \u00e0 Programa\u00e7\u00e3o: 500 Algoritmos. Rio de Janeiro: Elsevier,\r\n2002.\r\nLUTZ, M. Learning Python. 5 th . Ed. Sebastopol: O&#39;Reilly Media, 2013.\r\nMOKARZEL, F. C.; SOMA, N. Y. Introdu\u00e7\u00e3o \u00e0 Ci\u00eancia da Computa\u00e7\u00e3o. Rio de Janeiro: Elsevier,\r\n2008.", "percentual_pratico": 0, "percentual_teorico": 100, "coordenador": 104}}, {"model": "curriculo.disciplina", "pk": 4, "fields": {"nome": "Desenvolvimento para Dispositivos M\u00f3veis", "data": "2019-02-19", "status": "ABERTA", "plano_ensino": "Aulas expositivas utilizando projetor, lousa eletr\u00f4nica e computador nas quais se apresenta e discute os\r\nt\u00f3picos da disciplina, bem como trabalhos em grupo com apresenta\u00e7\u00e3o escrita e defesa oral,\r\napresenta\u00e7\u00e3o de v\u00eddeos.\r\nCada per\u00edodo de aula de 50 minutos ser\u00e1 completado com atividades a serem realizadas no ambiente de", "carga_horaria": 80, "competencias": "Entender os modelos de programa\u00e7\u00e3o para dispositivos m\u00f3veis: nativo, web e h\u00edbrido\r\nConhecer as tecnologias dispon\u00edveis para desenvolvimento de dispositivos m\u00f3veis\r\nConhecer os conceitos fundamentais e a arquitetura para desenvolvimento de aplica\u00e7\u00f5es para\r\nAndroid\r\nConhecer os recursos tecnol\u00f3gicos dispon\u00edveis na plataforma Android (Android SDK)\r\nEntender o funcionamento de um aplicativo m\u00f3vel\r\nConhecer as formas de armazenamento de dados e comunica\u00e7\u00e3o com internet, servi\u00e7os e APIs em\r\naplica", "habilidades": "Desenvolver aplicativos m\u00f3veis utilizando a plataforma Android\r\nUtilizar linguagem de programa\u00e7\u00e3o Kotlin para desenvolver aplicativos m\u00f3veis para Android\r\nUtilizar os recursos tecnol\u00f3gicos dispon\u00edveis na plataforma Android (Android SDK)\r\nDesenvolver aplica\u00e7\u00f5es para dispositivos m\u00f3veis utilizando os diversos componentes visuais\r\nDesenvolver aplica\u00e7\u00f5es para Android utilizando armazenamento de dados\r\nDesenvolver aplica\u00e7\u00f5es para Android que consomem servi\u00e7os na web e utilizam APIs", "ementa": "Linguagem de Programa\u00e7\u00e3o ||, Tecnologias Web, Banco de Dados, Desenvolvimento de Aplica\u00e7\u00f5es\r\nDistribu\u00eddas", "conteudo_programatico": "Conceitos fundamentais, modelos de desenvolvimento de aplicativos m\u00f3veis e tecnologias (Kotlin,\r\nAndroid, aplicativos nativos, web e h\u00edbridos)\r\nDesenvolvimento de aplicativos m\u00f3veis com Android\r\nActivity e Intent\r\nInterfaces gr\u00e1ficas - Layout e Views, Action Ba, Navigation Drawer e Listas\r\nNavega\u00e7\u00e3o e envio de par\u00e2metros entre telas\r\nNotifica\u00e7\u00f5es e push de mensagens\r\nPersist\u00eancia em bancos de dados locais\r\nConsumo de servi\u00e7os web e APIs", "bibliografia_basica": "LECHETA, R. R. Android Essencial com Kotlin. Edi\u00e7\u00e3o: 1\u00aa ed. Novatec, 2017.\r\nLECHETA, R. R. Google Android: aprenda a criar aplica\u00e7\u00f5es para dispositivos m\u00f3veis com o Android\r\nSDK. 5.ed. S\u00e3o Paulo: Novatec, 2010.\r\nFIRTMAN, M. Programming the Mobile Web. 1st ed. Sebastopol: O\u00b4Reilly, 2010.", "bibliografia_complementar": "STARK, J.. Building Android Apps with HTML, CSS, and JavaScript. 1st ed. Sebastopol: O\u00b4Reilly,\r\n2010.\r\nSILVA, M.S. jQuery Mobile - Desenvolva Aplica\u00e7\u00f5es Web para Dispositivos M\u00f3veis com HTML5,\r\nCSS3, AJAX, jQuery e JQUERY UI. 1a ed. Novatec, 2011\r\nFLING, B.. Mobile Design and Development: practical concepts and techniques for creating mobile\r\nsites and web apps. 1st ed. Sebastopol: O\u00b4Reilly, 2009.\r\nSTARK, J.. Building iPhone Apps with HTML, CSS, and JavaScript. 1st ed. Sebastopol: O\u00b4Reilly,", "percentual_pratico": 50, "percentual_teorico": 50, "coordenador": 105}}]
+[
+{
+  "model": "curriculo.curso",
+  "pk": 1,
+  "fields": {
+    "nome": "Bacharelado em Administra\u00e7\u00e3o",
+    "sigla": "ADM",
+    "descricao": "Tornar-se um l\u00edder. Ser um empreendedor. Fazer investimentos. Voc\u00ea tem in\u00fameras possibilidades na gradua\u00e7\u00e3o em Administra\u00e7\u00e3o da Faculdade Impacta.\r\n\r\nO curso \u00e9 voltado para as exig\u00eancias do mercado de trabalho atual e aborda de forma ampla o universo corporativo. Voc\u00ea vai aprender a definir as melhores estrat\u00e9gias para o bom funcionamento das empresas, para gerar lucros, controlar gastos e se destacar com qualidade entre as concorrentes.\r\n\r\nGerir equipes, negociar com fornecedores, solucionar diferentes problemas, atingir resultados positivos, aumentar a produtividade e aplicar novas tecnologias nas organiza\u00e7\u00f5es tamb\u00e9m s\u00e3o fun\u00e7\u00f5es do administrador.",
+    "semestres": 8
+  }
+},
+{
+  "model": "curriculo.curso",
+  "pk": 2,
+  "fields": {
+    "nome": "CST em An\u00e1lise e Desenvolvimento de Sistemas",
+    "sigla": "ADS",
+    "descricao": "O curso de An\u00e1lise e Desenvolvimento de Sistemas da Faculdade Impacta foi reconhecido pelo ENADE/MEC como um dos melhores da cidade de S\u00e3o Paulo.\r\n\r\nCom a transforma\u00e7\u00e3o digital e a \u00e1rea de tecnologia sempre em alta, o curso forma um profissional que possa se envolver em todas as etapas do projeto de sistemas de software, desde concep\u00e7\u00e3o, an\u00e1lise, projeto, teste, gest\u00e3o, implanta\u00e7\u00e3o e manuten\u00e7\u00e3o de sistemas de informa\u00e7\u00e3o.\r\n\r\nAtualmente, as carreiras mais demandadas pelo mercado de trabalho s\u00e3o para desenvolvedor web, mobile e a Internet das Coisas (IoT), al\u00e9m de profissionais com conhecimento em DevOps (Ambiente de Opera\u00e7\u00e3o e Desenvolvimento). \r\n\r\nO profissional de DevOps precisa ter habilidades para fundir desenvolvimento e implanta\u00e7\u00e3o de aplicativos em um processo automatizado, de entrega cont\u00ednua, em que as responsabilidades s\u00e3o compartilhadas entre equipe de opera\u00e7\u00e3o e equipe de desenvolvimento, facilitando o desenvolvimento, integra\u00e7\u00e3o, entrega, processos de monitoramento cont\u00ednuos de software e a gest\u00e3o da infraestrutura de TI. \r\n\r\nPara o trabalho do profissional de desenvolvimento web, mobile e IOT, aprende-se a programar em linguagens de programa\u00e7\u00e3o ou marca\u00e7\u00e3o, tais como: HTML, CSS, Javascript e Python, assim como frameworks relacionados e banco de dados com SQL, para cria\u00e7\u00e3o de aplicativos para sites, aplicativos m\u00f3veis e IoT.\r\n\r\nOs desenvolvedores precisam ainda entender os requisitos de neg\u00f3cio do cliente e fornecer recomenda\u00e7\u00f5es para melhorar os aplicativos ou sistemas de software, a fim de garantir que atendam \u00e0s necessidades dos usu\u00e1rios ou clientes.\r\n\r\nEsses diferenciais na forma\u00e7\u00e3o de habilidades e compet\u00eancias do nosso curso permitem aos alunos trabalharem em empresas das mais variadas \u00e1reas de aplica\u00e7\u00f5es, ocupando carreiras como de analista de sistemas, analista de requisitos, analista de neg\u00f3cio, desenvolvedor web, mobile ou IoT e DevOps, analista de teste e gerente de projeto.",
+    "semestres": 4
+  }
+},
+{
+  "model": "curriculo.curso",
+  "pk": 3,
+  "fields": {
+    "nome": "Bacharelado em Sistemas da informa\u00e7\u00e3o",
+    "sigla": "SI",
+    "descricao": "A gradua\u00e7\u00e3o de Sistemas de Informa\u00e7\u00e3o visa formar empreendedores, profissionais e pesquisadores focados na constru\u00e7\u00e3o, manuten\u00e7\u00e3o e evolu\u00e7\u00e3o dos sistemas computacionais de apoio \u00e0s organiza\u00e7\u00f5es.\r\nO perfil empreendedor \u00e9 alcan\u00e7ado a partir da cria\u00e7\u00e3o de startups e produtos inovadores durante os quatro semestres finais do curso.\r\nJ\u00e1 o perfil profissional \u00e9 alcan\u00e7ado a partir da capacidade de entender e analisar problemas reais e desenvolver solu\u00e7\u00f5es pragm\u00e1ticas com o uso de tecnologias de melhor custo-benef\u00edcio.\r\nO constante envolvimento do aluno na solu\u00e7\u00e3o de problemas impulsiona o perfil investigativo, n\u00e3o apenas como um pesquisador intuitivo, mas, sobretudo, como conhecedor de processos e m\u00e9todos para a realiza\u00e7\u00e3o de pesquisas cient\u00edficas.",
+    "semestres": 8
+  }
+},
+{
+  "model": "curriculo.curso",
+  "pk": 4,
+  "fields": {
+    "nome": "CST em Redes de Computadores",
+    "sigla": "REDES",
+    "descricao": "Com o advento da Ind\u00fastria 4.0 e da Internet das Coisas, os sistemas de computa\u00e7\u00e3o s\u00e3o, cada vez mais, dependentes de infraestrutura de redes de comuni\u00e7\u00e3o, e demandam das mesmas maior desempenho, confiabilidade e seguran\u00e7a.\r\n\r\nNeste contexto, as empresas dos mais variados setores da economia possuem depend\u00eancia das redes de computadores no mesmo n\u00edvel que de energia el\u00e9trica. Servi\u00e7os do dia a dia, essenciais para sociedade, dependem de diferentes tipos de redes, como Wi-Fi, intranet, dispositivos m\u00f3veis conectados, entre outros.\r\n\r\nO profissional formado pelo curso Superior em Tecnologia em Redes de Computadores estar\u00e1 preparado para atuar neste contexto, analisando, projetando, implementando e administrando solu\u00e7\u00f5es para garantir o funcionamento e meio de infraestrutura de tecnologia da informa\u00e7\u00e3o para diversas aplica\u00e7\u00f5es, desde v\u00eddeos on demand at\u00e9 aplica\u00e7\u00f5es financeiras.\r\n\r\nO aluno dominar\u00e1 ferramentas e tecnologias voltadas para controles de tr\u00e1fego, cyber security, dimensionamento da capacidade computacional e implementa\u00e7\u00e3o de ambientes de execu\u00e7\u00e3o de aplica\u00e7\u00f5es em nuvem, pol\u00edticas de seguran\u00e7a de informa\u00e7\u00e3o, conectividade e implementa\u00e7\u00e3o de redes locais e de longa dist\u00e2ncia.\r\n\r\nO aluno ter\u00e1 ainda uma vis\u00e3o abrangente da \u00e1rea, com a possibilidade de desenvolver projetos, realizar atividades em laborat\u00f3rio e se preparar para certifica\u00e7\u00f5es da Cisco, que possuem peso e reconhecimento internacional.",
+    "semestres": 4
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 1,
+  "fields": {
+    "curso": 2,
+    "disciplina": 1,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 2,
+  "fields": {
+    "curso": 2,
+    "disciplina": 2,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 3,
+  "fields": {
+    "curso": 2,
+    "disciplina": 3,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 4,
+  "fields": {
+    "curso": 2,
+    "disciplina": 4,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 5,
+  "fields": {
+    "curso": 2,
+    "disciplina": 5,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 6,
+  "fields": {
+    "curso": 2,
+    "disciplina": 10,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 7,
+  "fields": {
+    "curso": 2,
+    "disciplina": 6,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 8,
+  "fields": {
+    "curso": 2,
+    "disciplina": 8,
+    "semestre": 3
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 9,
+  "fields": {
+    "curso": 2,
+    "disciplina": 7,
+    "semestre": 3
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 10,
+  "fields": {
+    "curso": 2,
+    "disciplina": 9,
+    "semestre": 4
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 11,
+  "fields": {
+    "curso": 4,
+    "disciplina": 1,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 12,
+  "fields": {
+    "curso": 4,
+    "disciplina": 2,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 13,
+  "fields": {
+    "curso": 4,
+    "disciplina": 3,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 14,
+  "fields": {
+    "curso": 4,
+    "disciplina": 4,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 15,
+  "fields": {
+    "curso": 4,
+    "disciplina": 5,
+    "semestre": 3
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 16,
+  "fields": {
+    "curso": 4,
+    "disciplina": 6,
+    "semestre": 4
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 17,
+  "fields": {
+    "curso": 4,
+    "disciplina": 7,
+    "semestre": 3
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 18,
+  "fields": {
+    "curso": 4,
+    "disciplina": 8,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 19,
+  "fields": {
+    "curso": 4,
+    "disciplina": 9,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 20,
+  "fields": {
+    "curso": 4,
+    "disciplina": 10,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 21,
+  "fields": {
+    "curso": 3,
+    "disciplina": 1,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 22,
+  "fields": {
+    "curso": 3,
+    "disciplina": 2,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 23,
+  "fields": {
+    "curso": 3,
+    "disciplina": 3,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 24,
+  "fields": {
+    "curso": 3,
+    "disciplina": 4,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 25,
+  "fields": {
+    "curso": 3,
+    "disciplina": 5,
+    "semestre": 3
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 26,
+  "fields": {
+    "curso": 3,
+    "disciplina": 6,
+    "semestre": 4
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 27,
+  "fields": {
+    "curso": 3,
+    "disciplina": 7,
+    "semestre": 5
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 28,
+  "fields": {
+    "curso": 3,
+    "disciplina": 9,
+    "semestre": 6
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 29,
+  "fields": {
+    "curso": 3,
+    "disciplina": 10,
+    "semestre": 7
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 30,
+  "fields": {
+    "curso": 3,
+    "disciplina": 8,
+    "semestre": 8
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 31,
+  "fields": {
+    "curso": 1,
+    "disciplina": 1,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 32,
+  "fields": {
+    "curso": 1,
+    "disciplina": 2,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 33,
+  "fields": {
+    "curso": 1,
+    "disciplina": 3,
+    "semestre": 1
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 34,
+  "fields": {
+    "curso": 1,
+    "disciplina": 4,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 35,
+  "fields": {
+    "curso": 1,
+    "disciplina": 5,
+    "semestre": 2
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 36,
+  "fields": {
+    "curso": 1,
+    "disciplina": 6,
+    "semestre": 3
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 37,
+  "fields": {
+    "curso": 1,
+    "disciplina": 7,
+    "semestre": 3
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 38,
+  "fields": {
+    "curso": 1,
+    "disciplina": 8,
+    "semestre": 4
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 39,
+  "fields": {
+    "curso": 1,
+    "disciplina": 9,
+    "semestre": 5
+  }
+},
+{
+  "model": "curriculo.matrizcurricular",
+  "pk": 40,
+  "fields": {
+    "curso": 1,
+    "disciplina": 10,
+    "semestre": 6
+  }
+},
+{
+  "model": "contas.usuario",
+  "pk": 1,
+  "fields": {
+    "last_login": "2019-05-12T22:53:04.372Z",
+    "login": "admin",
+    "password": "pbkdf2_sha256$120000$SYD9c7D7FtHL$216mLY/bW/megFXfbDUO2nWGqtADqY5Iavg3s+rIhSA=",
+    "dt_expiracao": "1900-01-01",
+    "tipo": "C"
+  }
+},
+{
+  "model": "contas.coordenador",
+  "pk": 1,
+  "fields": {
+    "nome": "admin",
+    "email": "admin",
+    "celular": "admin"
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 1,
+  "fields": {
+    "nome": "Comunica\u00e7\u00e3o e Express\u00e3o (EAD)",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "A flu\u00eancia na l\u00edngua materna possibilita a plena compreens\u00e3o dos textos indicados e a excel\u00eancia na produ\u00e7\u00e3o cientifica. Aplica\u00e7\u00e3o pr\u00e1tica da expressividade ao falar em p\u00fablico, com direcionamento acad\u00eamico e empresarial. Desenvolvimento de textos corporativos e cient\u00edficos. Leitura cr\u00edtica e interpretativa. Elabora\u00e7\u00e3o de textos, permeados pela clareza, intencionalidade, coes\u00e3o e coer\u00eancia. Orienta\u00e7\u00e3o para emprego da ABNT em produ\u00e7\u00f5es cient\u00edficas.",
+    "carga_horaria": 80,
+    "competencias": "competencias",
+    "habilidades": "habilidades",
+    "ementa": "ementa",
+    "conteudo_programatico": "conteudo",
+    "bibliografia_basica": "bibliografia",
+    "bibliografia_complementar": "bibliogradia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 2,
+  "fields": {
+    "nome": "Fundamentos de Banco de Dados",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Introdu\u00e7\u00e3o aos Sistemas Gerenciadores de Banco de Dados. Projeto de Banco de Dados. Projeto Conceitual de Banco de Dados: Modelo Entidade Relacionamento: UML: Uso de Diagramas de Classes da UML para representar as Abstra\u00e7\u00f5es de Generaliza\u00e7\u00e3o, Agrega\u00e7\u00e3o e Composi\u00e7\u00e3o. Projeto L\u00f3gico de Banco de Dados: Modelo Relacional; Normaliza\u00e7\u00e3o.",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 3,
+  "fields": {
+    "nome": "Linguagem de Programa\u00e7\u00e3o I",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Introdu\u00e7\u00e3o e Conceitos de Programa\u00e7\u00e3o e Linguagem de Programa\u00e7\u00e3o. Linguagem de Programa\u00e7\u00e3o Python. Tipos de Dados. Estruturas l\u00f3gicas ou de controle de fluxo. Modulariza\u00e7\u00e3o. M\u00e9todos. Classes. Desenvolvimento de projeto IoT.",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 4,
+  "fields": {
+    "nome": "L\u00f3gica de Programa\u00e7\u00e3o",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Introdu\u00e7\u00e3o \u00e0 L\u00f3gica e aos Algoritmos. Tipos de Dados. Estruturas l\u00f3gicas ou de controle de fluxo. Modulariza\u00e7\u00e3o. Introdu\u00e7\u00e3o \u00e0s Estruturas de Dados. Estruturas de Dados Homog\u00eaneas. M\u00e9todos de Busca (Busca Linear e Busca Bin\u00e1ria). M\u00e9todos de Ordena\u00e7\u00e3o (M\u00e9todos Bolha, Inser\u00e7\u00e3o e Sele\u00e7\u00e3o).",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 5,
+  "fields": {
+    "nome": "Linguagem de Progarama\u00e7\u00e3o II",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Aplica\u00e7\u00e3o de listas e dicion\u00e1rios. Projetos de desenvolvimento de solu\u00e7\u00f5es. Programa\u00e7\u00e3o orientada a objetos. Arquivos e estrat\u00e9gias de persist\u00eancia de dados. Padr\u00f5es de projeto. Testes unit\u00e1rios automatizados.",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 6,
+  "fields": {
+    "nome": "Tecnologia Web",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Conceitos e fundamentos: Internet, Intranet e Extranet. Arquitetura Cliente-Servidor. Desenvolvimento de aplica\u00e7\u00f5es WEB Padr\u00f5es Web. HTML (HyperText Markup Language) e CSS ( Cascading Style Sheets). Sintaxe, comandos JavaScript e integra\u00e7\u00e3o com HTML. No\u00e7\u00f5es de NodeJS. Python e Framework de Desenvolvimento.  Arquitetura Model-View-Controller; a camada de acesso a banco de dados; Padr\u00e3o de endere\u00e7amento http; aspetos de seguran\u00e7a, componentiza\u00e7\u00e3o JQuery + AJAX.",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 7,
+  "fields": {
+    "nome": "Estrutura de Dados",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Tipo de dado e Tipos abstratos de dados. Recursividade com revis\u00e3o de listas lineares; Arrays associativos. M\u00e9todos de busca e ordena\u00e7\u00e3o. Lista, pilha e fila. Tabelas de Espalhamento. Dicion\u00e1rios e Conjuntos. \u00c1rvores. Grafo. Desenvolvimento de um projeto de aplica\u00e7\u00e3o.",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 8,
+  "fields": {
+    "nome": "Desenvolvimento de Aplica\u00e7\u00f5es Distribu\u00eddas",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Arquitetura Orientada a Servi\u00e7os e Web Service; Padr\u00f5es, protocolos e especifica\u00e7\u00f5es; Frameworks e API's para o desenvolvimento de Web Services; Desenvolvimento de Web Services; Modelo de seguran\u00e7a; SOA, RESTFul Web Services e OAuth. Pr\u00e1ticas: Defini\u00e7\u00e3o de arquitetura orientada a servi\u00e7os envolvendo aplica\u00e7\u00f5es web, IoT e M\u00f3vel; Implementa\u00e7\u00e3o usando o WCF (Windows Communication Foundation).",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 9,
+  "fields": {
+    "nome": "Legisla\u00e7\u00e3o e \u00c9tica",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Direito Digital. Propriedade Intelectual em especial Direito Autoral. Lei de Software. Princ\u00edpios Gerais do Direito do Consumidor. Licita\u00e7\u00f5es e Contratos de Inform\u00e1tica. Tributa\u00e7\u00e3o de Software e de Servi\u00e7os de Inform\u00e1tica. \u00c9tica Profissional: Regula\u00e7\u00e3o Profissional.",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+},
+{
+  "model": "curriculo.disciplina",
+  "pk": 10,
+  "fields": {
+    "nome": "Ambiente de Desenvolvimento e Opera\u00e7\u00f5es - DevOps",
+    "data": "2019-05-12",
+    "status": "ABERTA",
+    "plano_ensino": "Gerenciamento e Configura\u00e7\u00e3o de Mudan\u00e7as. Instala\u00e7\u00e3o e configura\u00e7\u00e3o de ambientes operacionais e ferramentas em m\u00e1quinas virtuais, local e em nuvem: Sistema Operacional, Compilador / Interpretador, Ambientes de Testes de Unidade. Git / GitHub, Servidor de Aplica\u00e7\u00e3o e wikis. Utilizando os ambientes criados para a especifica\u00e7\u00e3o e codifica\u00e7\u00e3o da OPE.",
+    "carga_horaria": 80,
+    "competencias": "Compet\u00eancias",
+    "habilidades": "Habilidades",
+    "ementa": "Ementa",
+    "conteudo_programatico": "Conte\u00fado",
+    "bibliografia_basica": "Bibliogr\u00e1fia",
+    "bibliografia_complementar": "Bibliogr\u00e1fia",
+    "percentual_pratico": 0,
+    "percentual_teorico": 100,
+    "coordenador": 1
+  }
+}
+]
