@@ -4,5 +4,6 @@ from . import views
 
 app_name = 'curriculo'
 urlpatterns = [
-    path('<str:sigla>/', views.curso, name='curso')
+    path('<str:sigla>/', views.curso, name='curso'), 
+    path('', views.cursos, name='cursos')
 ]

@@ -7,3 +7,9 @@ def curso(request, sigla):
         'curso': get_object_or_404(Curso, sigla=sigla)
     }
     return render(request, 'curriculo/curso.html', context)
+
+def cursos(request):
+    context = {
+        'cursos': Curso.objects.all()
+    } 
+    return render(request, 'curriculo/cursos.html', context)   
