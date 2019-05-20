@@ -1,3 +1,8 @@
+<!-- yago.marques@aluno.faculdadeimpacta.com.br
+    
+-->
+
+
 {% extends "base.html" %}
 
 {% load static %}
@@ -34,28 +39,28 @@
             <p class="card-text"></p>
             Destaque no portal da Revista Exame como o curso que está entre os melhores do Brasil. (06/2017)
         </p>
-        <p><a class="btn btn-primary" href="#" role="button">Confira mais sobre o curso</a></p>
+        <p><a class="btn btn-primary" href="{% url 'curriculo:curso' 'ADM' %}" role="button">Confira mais sobre o curso</a></p>
         </article><!-- /.col-lg-4 -->
         <article class="card text-center bg-dark text-white p-2">
             <img class="card-img-top premio" src="{% static 'imagens/premios/enade-ADS.png' %}" alt="Card image cap">
             <h5 class="card-title">Maior Nota ENADE SP</h5>
             <h6 class="card-subtitle mb-2 text-primary font-weight-bold">Graduação em Análise e Desenvolvimento de Sistemas</h6>
             <p class="card-text">Nota 4 na avaliação do ENADE/MEC - 1.º melhor curso da cidade de São Paulo.</p>
-            <p><a class="btn btn-primary" href="#" role="button">Confira mais sobre o curso</a></p>
+            <p><a class="btn btn-primary" href="{% url 'curriculo:curso' 'ADS' %}" role="button">Confira mais sobre o curso</a></p>
         </article><!-- /.col-lg-4 -->
         <article class="card text-center bg-dark text-white p-2">
             <img class="card-img-top premio" src="{% static 'imagens/premios/enade-RD.png' %}" alt="Card image cap">
             <h5 class="card-title">Top 4 ENADE/MEC SP</h5>
             <h6 class="card-subtitle mb-2 text-primary font-weight-bold">Graduação em Redes de Computadores</h6>
             <p class="card-text">Nota 3 na avaliação do ENADE/MEC - 4.º melhor curso da cidade de São Paulo.</p>
-        <p><a class="btn btn-primary" href="#" role="button">Confira mais sobre o curso</a></p>
+        <p><a class="btn btn-primary" href="{% url 'curriculo:curso' 'REDES' %}" role="button">Confira mais sobre o curso</a></p>
         </article><!-- /.col-lg-4 -->
         <article class="card text-center bg-dark text-white p-2">
             <img class="card-img-top premio" src="{% static 'imagens/premios/enade-SI.png' %}" alt="Card image cap">
             <h5 class="card-title">Top 3 ENADE/MEC SP</h5>
             <h6 class="card-subtitle mb-2 text-primary font-weight-bold">Graduação em Sistemas da Informação</h6>
             <p class="card-text">Nota 4 na avaliação do ENADE/MEC - 3.º melhor curso da cidade de São Paulo.</p>
-        <p><a class="btn btn-primary" href="#" role="button">Confira mais sobre o curso</a></p>
+        <p><a class="btn btn-primary" href="{% url 'curriculo:curso' 'SI' %}" role="button">Confira mais sobre o curso</a></p>
         </article><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
