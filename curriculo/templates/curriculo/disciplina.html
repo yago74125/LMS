@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+{{ disciplina.nome }}
+{% endblock titulo %}
+
+
+{% block main %}
+<section class="container d-flex flex-wrap justify-content-between">
+    <h1>{{ disciplina.nome }} - {{disciplina.status}} - CARGA:
+        {{ disciplina.carga_horaria}}H</h1>
+    <div class="row mt-5">
+        <div class="col-12">
+            <h3>Plano de ensino</h3>
+        </div>
+        <div class="col">
+            {{ disciplina.plano_ensino}}
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-12">
+            <h3>Competencias</h3>
+            {{ disciplina.competencias}}
+        </div>
+        <div class="col-12">
+            <h3>Habilidades</h3>
+            {{ disciplina.habilidades}}
+        </div>
+    </div>
+
+    <div class="row mt-2">
+        <div class="col-12">
+            <h3>Percentual Teorico</h3>
+            {{ disciplina.percentual_teorico}}%
+        </div>
+        <div class="col-12">
+            <h3>Percentual Pratico</h3>
+            {{ disciplina.percentual_pratico}}%
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h3>Conteudo</h3>
+            {{disciplina.conteudo_programatico}}
+        </div>
+    </div>
+</section>
+{% endblock main %}

@@ -11,9 +11,10 @@
 
     <section class="sobre border bg-light border-primary mx-2 p-3 w-75">
         <h2>Sobre o Curso</h2>
-        <p>{{curso.descricao|linebreaks}}</p>
         
+					{{curso.descricao|linebreaks}} 
     </section>
+
     <section class="informacoes mx-2">
         <h2>Informações</h2>
 
@@ -34,7 +35,7 @@
 
         <p>
             <span class="font-weight-bold text-primary">Duração:</span>
-            {{curso.semestres}} semestres{{curso.semestres|pluralize}}
+						{{ curso.semestres }} semestres 
         </p>
 
     </section>
@@ -43,56 +44,35 @@
         <div class="row">
             <div class="col-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    {% for s in matriz%}
-                    <a {% if forloop.first %} class="nav-link active"  {% else %} class="nav-link"  {% endif %} id="v-pills-{{forloop.counter}}-tab"
-                        data-toggle="pill" href="#v-pills-{{forloop.counter}}" role="tab" aria-controls="v-pills-{{forloop.counter}}"
-                        aria-selected="true">{{forloop.counter}}º Semestre</a>
-                    {% endfor %}    
-                      
+	                    {% for _ in matriz %}
+	                        <a {% if forloop.first %}
+	                            class="nav-link active"
+	                           {% else %}
+	                             class="nav-link"
+												     {% endif%}
+												     id="v-pills-{{forloop.counter}}-tab" 
+												     data-toggle="pill" href="#v-pills-{{forloop.counter}}" 
+												     role="tab" aria-controls="v-pills-{{forloop.counter}}" 
+												     aria-selected="false">
+												     {{forloop.counter}}º Semestre
+													</a>
+										{% endfor %}
                 </div>
             </div>
             <div class="col-9">
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-1"
-                        role="tabpanel" aria-labelledby="v-pills-1-tab">
+	                    {% for sem, dics in matriz.items %}
+											<div {%if forloop.first %} class="tab-pane fade show active" {% else %} class="tab-pane fade" {% endif %}
+													 id="v-pills-{{sem}}" role="tabpanel" aria-labelledby="v-pills-{{sem}}-tab">
                         <div class="list-group text-left">
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 1: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 2: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 3: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 4: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 5: 80h</a>
+													{% for disc in dics %}
+													<a href="#"  class="list-group-item list-group-item-action">{{disc.nome}}: {{disc.carga_horaria}} horas</a>
+													{% empty %}
+														<span class="list-group-item list-group-item-action"> O Curso não possui disciplina neste semestre. </span>
+													{%  endfor %}
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-2"
-                        role="tabpanel" aria-labelledby="v-pills-2-tab">
-                        <div class="list-group text-left">
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 6: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 7: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 8: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 9: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 10: 80h</a>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-3"
-                        role="tabpanel" aria-labelledby="v-pills-3-tab">
-                        <div class="list-group text-left">
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 11: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 12: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 13: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 14: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 15: 80h</a>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-4"
-                        role="tabpanel" aria-labelledby="v-pills-4-tab">
-                        <div class="list-group text-left">
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 16: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 17: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 18: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 19: 80h</a>
-                            <a href="#" class="list-group-item list-group-item-action">Disciplina 20: 80h</a>
-                        </div>
-                    </div>
+										{% endfor %}
                 </div>
             </div>
         </div>
